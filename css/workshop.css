@@ -1,0 +1,209 @@
+.navbar-default, a {
+    -webkit-transition: all .35s;
+    -moz-transition: all .35s;
+}
+header, header .header-content {
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+body, html {
+    height: 100%;
+    width: 100%}
+body {
+    font-family: Merriweather, 'Helvetica Neue', Arial, sans-serif;
+    webkit-tap-highlight-color: #000000;
+}
+.btn, .navbar-default, .navbar-default .navbar-header .navbar-brand, h1, h2, h3, h4, h5, h6 {
+    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+}
+hr {
+    border-color: #000000;
+    border-width: 3px;
+    max-width: 50px;
+}
+hr.light {
+    border-color: #000;
+}
+a {
+    transition: all .35s;
+    color: #000000;
+}
+a:focus, a:hover {
+    color: #eb3812;
+}
+header .card-block{
+	color: #000;
+	margin-right: 50px;
+}
+
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+.bg-primary {
+    background-color: #000000 }
+.bg-dark {
+    background-color: #000000;
+    color: #000;
+}
+.text-faded {
+    color: rgba(255, 255, 255, .7);
+}
+section {
+    padding: 100px 0;
+}
+aside {
+    padding: 50px 0;
+}
+.no-padding {
+    padding: 0;
+}
+.navbar-default {
+    background-color: #000;
+    border-color: black;
+    transition: all .35s;
+}
+.btn-default, .portfolio-box .portfolio-box-caption {
+    -webkit-transition: all .35s;
+    -moz-transition: all .35s;
+}
+.navbar-default .navbar-header .navbar-brand {
+    color: #000000;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.navbar-default .navbar-header .navbar-brand:focus, .navbar-default .navbar-header .navbar-brand:hover {
+    color: #eb3812;
+}
+.navbar-default .navbar-header .navbar-toggle {
+    font-weight: 700;
+    font-size: 12px;
+    color: #000000;
+    text-transform: uppercase;
+}
+.navbar-default .nav>li>a, .navbar-default .nav>li>a:focus {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 13px;
+    color: #000;
+}
+.navbar-default .nav>li>a:focus:hover, .navbar-default .nav>li>a:hover {
+    color: #000;
+}
+.navbar-default .nav>li.active>a, .navbar-default .nav>li.active>a:focus {
+    color: #000000!important;
+    background-color: black;
+}
+.navbar-default .nav>li.active>a:focus:hover, .navbar-default .nav>li.active>a:hover {
+    background-color: transparent;
+}
+@media (min-width:768px) {
+    .navbar-default {
+    background-color: transparent;
+    border-color: black;
+}
+.navbar-default .navbar-header .navbar-brand {
+    color: black;
+}
+.navbar-default .navbar-header .navbar-brand:focus, .navbar-default .navbar-header .navbar-brand:hover {
+    color: #000;
+}
+.navbar-default .nav>li>a, .navbar-default .nav>li>a:focus {
+    color:black;
+}
+.navbar-default .nav>li>a:focus:hover, .navbar-default .nav>li>a:hover {
+    color: #000;
+}
+.navbar-default.affix {
+    background-color: #000;
+    border-color: black;
+}
+.navbar-default.affix .navbar-header .navbar-brand {
+    color: #000;
+    font-size: 14px;
+}
+.navbar-default.affix .navbar-header .navbar-brand:focus, .navbar-default.affix .navbar-header .navbar-brand:hover {
+    color: #eb3812;
+}
+.navbar-default.affix .nav>li>a, .navbar-default.affix .nav>li>a:focus {
+    color: #000000;
+}
+.navbar-default.affix .nav>li>a:focus:hover, .navbar-default.affix .nav>li>a:hover {
+    color: #000000;
+}
+
+
+
+@import url(https://fonts.googleapis.com/css?family=Lato);
+@import url(https://fonts.googleapis.com/css?family=Oswald);
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css);
+.snip1579 {
+  font-family: 'Lato', Arial, sans-serif;
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  margin: 8px;
+  min-width: 250px;
+  max-width: 310px;
+  width: 100%;
+  background-color: #000000;
+  color: #ffffff;
+  text-align: left;
+  font-size: 16px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+}
+.snip1579 * {
+  -webkit-transition: all 0.35s;
+  transition: all 0.35s;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.snip1579 img {
+  max-width: 100%;
+  vertical-align: top;
+}
+.snip1579 figcaption {
+  position: absolute;
+  height: 75px;
+  left: 15px;
+  right: 15px;
+  bottom: 15px;
+  overflow: hidden;
+  padding: 15px;
+  background-color: rgba(0, 0, 0, 0.75);
+}
+.snip1579 h3 {
+  font-family: 'Oswald';
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  margin: 3px 0;
+}
+.snip1579 h5 {
+  font-weight: 400;
+  margin: 0;
+  text-transform: uppercase;
+  color: #bbb;
+  letter-spacing: 1px;
+}
+.snip1579 blockquote {
+  padding: 0;
+  margin: 0;
+  font-style: italic;
+  font-size: 1em;
+}
+.snip1579 a {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.snip1579:hover figcaption,
+.snip1579.hover figcaption {
+  height: calc(85%);
+}
